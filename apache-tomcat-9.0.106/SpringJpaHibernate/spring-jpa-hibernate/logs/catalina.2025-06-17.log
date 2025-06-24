@@ -1,0 +1,1215 @@
+17-Jun-2025 08:23:31.710 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.106
+17-Jun-2025 08:23:31.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 5 2025 19:02:30 UTC
+17-Jun-2025 08:23:31.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.106.0
+17-Jun-2025 08:23:31.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+17-Jun-2025 08:23:31.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+17-Jun-2025 08:23:31.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+17-Jun-2025 08:23:31.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\Owner\.jdks\temurin-17.0.15
+17-Jun-2025 08:23:31.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.15+6
+17-Jun-2025 08:23:31.715 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Eclipse Adoptium
+17-Jun-2025 08:23:31.715 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Owner\Documents\PCX\apache-tomcat-9.0.106\SpringJpaHibernate\spring-jpa-hibernate
+17-Jun-2025 08:23:31.715 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Owner\Documents\PCX\apache-tomcat-9.0.106
+17-Jun-2025 08:23:31.724 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+17-Jun-2025 08:23:31.724 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+17-Jun-2025 08:23:31.724 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+17-Jun-2025 08:23:31.724 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+17-Jun-2025 08:23:31.727 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+17-Jun-2025 08:23:31.727 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:49643,suspend=y,server=n
+17-Jun-2025 08:23:31.728 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Users\Owner\AppData\Local\JetBrains\IdeaIC2025.1\captureAgent\debugger-agent.jar=file:///C:/Users/Owner/AppData/Local/Temp/capture6730151017798766821.props
+17-Jun-2025 08:23:31.728 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Owner\Documents\PCX\apache-tomcat-9.0.106
+17-Jun-2025 08:23:31.728 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Owner\Documents\PCX\apache-tomcat-9.0.106\SpringJpaHibernate\spring-jpa-hibernate
+17-Jun-2025 08:23:31.728 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Owner\Documents\PCX\apache-tomcat-9.0.106\SpringJpaHibernate\spring-jpa-hibernate\temp
+17-Jun-2025 08:23:31.728 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Owner\Documents\PCX\apache-tomcat-9.0.106\SpringJpaHibernate\spring-jpa-hibernate\conf\logging.properties
+17-Jun-2025 08:23:31.728 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Jun-2025 08:23:31.728 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dkotlinx.coroutines.debug.enable.creation.stack.trace=false
+17-Jun-2025 08:23:31.728 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Ddebugger.agent.enable.coroutines=true
+17-Jun-2025 08:23:31.728 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dkotlinx.coroutines.debug.enable.flows.stack.trace=true
+17-Jun-2025 08:23:31.728 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dkotlinx.coroutines.debug.enable.mutable.state.flows.stack.trace=true
+17-Jun-2025 08:23:31.728 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+17-Jun-2025 08:23:31.776 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+17-Jun-2025 08:23:31.776 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+17-Jun-2025 08:23:31.776 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+17-Jun-2025 08:23:31.781 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+17-Jun-2025 08:23:32.037 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+17-Jun-2025 08:23:32.066 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [537] milliseconds
+17-Jun-2025 08:23:32.108 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+17-Jun-2025 08:23:32.108 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.106]
+17-Jun-2025 08:23:32.117 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Owner\Documents\PCX\apache-tomcat-9.0.106\SpringJpaHibernate\spring-jpa-hibernate\conf\Catalina\localhost\spring-hibernate-jpa.xml]
+17-Jun-2025 08:24:01.480 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Jun-2025 08:24:50.832 WARNING [main] com.hazelcast.instance.impl.HazelcastInstanceFactory.null Hazelcast is starting in a Java modular environment (Java 9 and newer) but without proper access to required Java packages. Use additional Java arguments to provide Hazelcast access to Java internal API. The internal API access is used to get the best performance results. Arguments to be used:
+ --add-modules java.se --add-exports java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-opens java.management/sun.management=ALL-UNNAMED --add-opens jdk.management/com.sun.management.internal=ALL-UNNAMED
+17-Jun-2025 08:24:51.122 INFO [main] com.hazelcast.system.logo.null [192.168.211.95]:5701 [dev] [5.3.1] 
+	+       +  o    o     o     o---o o----o o      o---o     o     o----o o--o--o
+	+ +   + +  |    |    / \       /  |      |     /         / \    |         |   
+	+ + + + +  o----o   o   o     o   o----o |    o         o   o   o----o    |   
+	+ +   + +  |    |  /     \   /    |      |     \       /     \       |    |   
+	+       +  o    o o       o o---o o----o o----o o---o o       o o----o    o   
+17-Jun-2025 08:24:51.122 INFO [main] com.hazelcast.system.null [192.168.211.95]:5701 [dev] [5.3.1] Copyright (c) 2008-2023, Hazelcast, Inc. All Rights Reserved.
+17-Jun-2025 08:24:51.122 INFO [main] com.hazelcast.system.null [192.168.211.95]:5701 [dev] [5.3.1] Hazelcast Platform 5.3.1 (20230609 - 3e88b17) starting at [192.168.211.95]:5701
+17-Jun-2025 08:24:51.122 INFO [main] com.hazelcast.system.null [192.168.211.95]:5701 [dev] [5.3.1] Cluster name: dev
+17-Jun-2025 08:24:51.122 INFO [main] com.hazelcast.system.null [192.168.211.95]:5701 [dev] [5.3.1] Integrity Checker is disabled. Fail-fast on corrupted executables will not be performed. For more information, see the documentation for Integrity Checker.
+17-Jun-2025 08:24:51.127 INFO [main] com.hazelcast.system.null [192.168.211.95]:5701 [dev] [5.3.1] The Jet engine is disabled.
+To enable the Jet engine on the members, do one of the following:
+  - Change member config using Java API: config.getJetConfig().setEnabled(true)
+  - Change XML/YAML configuration property: Set hazelcast.jet.enabled to true
+  - Add system property: -Dhz.jet.enabled=true (for Hazelcast embedded, works only when loading config via Config.load)
+  - Add environment variable: HZ_JET_ENABLED=true (recommended when running container image. For Hazelcast embedded, works only when loading config via Config.load)
+17-Jun-2025 08:24:51.745 INFO [main] com.hazelcast.internal.tpc.TpcServerBootstrap.null [192.168.211.95]:5701 [dev] [5.3.1] TPC: disabled
+17-Jun-2025 08:24:52.292 INFO [main] com.hazelcast.system.security.null [192.168.211.95]:5701 [dev] [5.3.1] Enable DEBUG/FINE log level for log category com.hazelcast.system.security  or use -Dhazelcast.security.recommendations system property to see security recommendations and the status of current config.
+17-Jun-2025 08:24:52.509 INFO [main] com.hazelcast.instance.impl.Node.null [192.168.211.95]:5701 [dev] [5.3.1] Using Multicast discovery
+17-Jun-2025 08:24:52.518 WARNING [main] com.hazelcast.cp.CPSubsystem.null [192.168.211.95]:5701 [dev] [5.3.1] CP Subsystem is not enabled. CP data structures will operate in UNSAFE mode! Please note that UNSAFE mode will not provide strong consistency guarantees.
+17-Jun-2025 08:24:53.180 INFO [main] com.hazelcast.internal.diagnostics.Diagnostics.null [192.168.211.95]:5701 [dev] [5.3.1] Diagnostics disabled. To enable add -Dhazelcast.diagnostics.enabled=true to the JVM arguments.
+17-Jun-2025 08:24:53.190 INFO [main] com.hazelcast.core.LifecycleService.null [192.168.211.95]:5701 [dev] [5.3.1] [192.168.211.95]:5701 is STARTING
+17-Jun-2025 08:24:56.022 INFO [main] com.hazelcast.internal.cluster.ClusterService.null [192.168.211.95]:5701 [dev] [5.3.1] 
+
+Members {size:1, ver:1} [
+	Member [192.168.211.95]:5701 - fc72122d-8083-41bb-8c80-6961be914542 this
+]
+
+17-Jun-2025 08:24:56.061 INFO [main] com.hazelcast.core.LifecycleService.null [192.168.211.95]:5701 [dev] [5.3.1] [192.168.211.95]:5701 is STARTED
+17-Jun-2025 08:25:11.897 INFO [main] com.hazelcast.core.LifecycleService.null [192.168.211.95]:5701 [dev] [5.3.1] [192.168.211.95]:5701 is SHUTTING_DOWN
+17-Jun-2025 08:25:11.906 INFO [main] com.hazelcast.instance.impl.Node.null [192.168.211.95]:5701 [dev] [5.3.1] Shutting down multicast service...
+17-Jun-2025 08:25:11.906 INFO [main] com.hazelcast.instance.impl.Node.null [192.168.211.95]:5701 [dev] [5.3.1] Shutting down connection manager...
+17-Jun-2025 08:25:11.908 INFO [main] com.hazelcast.instance.impl.Node.null [192.168.211.95]:5701 [dev] [5.3.1] Shutting down node engine...
+17-Jun-2025 08:25:11.913 INFO [main] com.hazelcast.instance.impl.NodeExtension.null [192.168.211.95]:5701 [dev] [5.3.1] Destroying node NodeExtension.
+17-Jun-2025 08:25:11.914 INFO [main] com.hazelcast.instance.impl.Node.null [192.168.211.95]:5701 [dev] [5.3.1] Hazelcast Shutdown is completed in 11 ms.
+17-Jun-2025 08:25:11.914 INFO [main] com.hazelcast.core.LifecycleService.null [192.168.211.95]:5701 [dev] [5.3.1] [192.168.211.95]:5701 is SHUTDOWN
+17-Jun-2025 08:25:12.299 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\Users\Owner\Documents\PCX\apache-tomcat-9.0.106\SpringJpaHibernate\spring-jpa-hibernate\conf\Catalina\localhost\spring-hibernate-jpa.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:602)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:603)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:680)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1839)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+		at --- Async.Stack.Trace --- (captured by IntelliJ IDEA debugger)
+		at java.base/java.util.concurrent.FutureTask.<init>(FutureTask.java:151)
+		at java.base/java.util.concurrent.AbstractExecutorService.newTaskFor(AbstractExecutorService.java:98)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:122)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:575)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:466)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1579)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:312)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:389)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:336)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:776)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:721)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+		at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+		at --- Async.Stack.Trace --- (captured by IntelliJ IDEA debugger)
+		at java.base/java.util.concurrent.FutureTask.<init>(FutureTask.java:132)
+		at java.base/java.util.concurrent.AbstractExecutorService.newTaskFor(AbstractExecutorService.java:113)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:144)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:211)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:412)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:874)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:739)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/spring-hibernate-jpa]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:406)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:179)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		... 43 more
+	Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration': Unsatisfied dependency expressed through method 'setFilterChainProxySecurityConfigurer' parameter 1; nested exception is org.springframework.beans.factory.BeanExpressionException: Expression parsing failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.oauth2.config.annotation.web.configuration.AuthorizationServerSecurityConfiguration': Injection of autowired dependencies failed; nested exception is org.springframework.jdbc.BadSqlGrammarException: PreparedStatementCallback; bad SQL grammar [select client_id, client_secret, resource_ids, scope, authorized_grant_types, web_server_redirect_uri, authorities, access_token_validity, refresh_token_validity, additional_information, autoapprove from oauth_client_details order by client_id]; nested exception is java.sql.SQLSyntaxErrorException: Table 'pcx.oauth_client_details' doesn't exist
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:678)
+		at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:376)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1377)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:575)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:848)
+		at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:865)
+		at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:548)
+		at ph.com.alliance.jpa.config.WebAppInitializer.onStartup(WebAppInitializer.java:41)
+		at org.springframework.web.SpringServletContainerInitializer.onStartup(SpringServletContainerInitializer.java:171)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4491)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		... 44 more
+	Caused by: org.springframework.beans.factory.BeanExpressionException: Expression parsing failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.oauth2.config.annotation.web.configuration.AuthorizationServerSecurityConfiguration': Injection of autowired dependencies failed; nested exception is org.springframework.jdbc.BadSqlGrammarException: PreparedStatementCallback; bad SQL grammar [select client_id, client_secret, resource_ids, scope, authorized_grant_types, web_server_redirect_uri, authorities, access_token_validity, refresh_token_validity, additional_information, autoapprove from oauth_client_details order by client_id]; nested exception is java.sql.SQLSyntaxErrorException: Table 'pcx.oauth_client_details' doesn't exist
+		at org.springframework.context.expression.StandardBeanExpressionResolver.evaluate(StandardBeanExpressionResolver.java:164)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.evaluateBeanDefinitionString(AbstractBeanFactory.java:1454)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1191)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1168)
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:670)
+		... 60 more
+	Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.oauth2.config.annotation.web.configuration.AuthorizationServerSecurityConfiguration': Injection of autowired dependencies failed; nested exception is org.springframework.jdbc.BadSqlGrammarException: PreparedStatementCallback; bad SQL grammar [select client_id, client_secret, resource_ids, scope, authorized_grant_types, web_server_redirect_uri, authorities, access_token_validity, refresh_token_validity, additional_information, autoapprove from oauth_client_details order by client_id]; nested exception is java.sql.SQLSyntaxErrorException: Table 'pcx.oauth_client_details' doesn't exist
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:382)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1377)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:575)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:598)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:586)
+		at org.springframework.security.config.annotation.web.configuration.AutowiredWebSecurityConfigurersIgnoreParents.getWebSecurityConfigurers(AutowiredWebSecurityConfigurersIgnoreParents.java:53)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+		at org.springframework.expression.spel.support.ReflectiveMethodExecutor.execute(ReflectiveMethodExecutor.java:130)
+		at org.springframework.expression.spel.ast.MethodReference.getValueInternal(MethodReference.java:138)
+		at org.springframework.expression.spel.ast.MethodReference.access$000(MethodReference.java:54)
+		at org.springframework.expression.spel.ast.MethodReference$MethodValueRef.getValue(MethodReference.java:390)
+		at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:90)
+		at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:111)
+		at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:265)
+		at org.springframework.context.expression.StandardBeanExpressionResolver.evaluate(StandardBeanExpressionResolver.java:161)
+		... 64 more
+	Caused by: org.springframework.jdbc.BadSqlGrammarException: PreparedStatementCallback; bad SQL grammar [select client_id, client_secret, resource_ids, scope, authorized_grant_types, web_server_redirect_uri, authorities, access_token_validity, refresh_token_validity, additional_information, autoapprove from oauth_client_details order by client_id]; nested exception is java.sql.SQLSyntaxErrorException: Table 'pcx.oauth_client_details' doesn't exist
+		at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:234)
+		at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+		at org.springframework.jdbc.core.JdbcTemplate.translateException(JdbcTemplate.java:1414)
+		at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:632)
+		at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:669)
+		at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:694)
+		at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:748)
+		at org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate.query(NamedParameterJdbcTemplate.java:212)
+		at org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate.query(NamedParameterJdbcTemplate.java:219)
+		at org.springframework.security.oauth2.common.util.DefaultJdbcListFactory.getList(DefaultJdbcListFactory.java:41)
+		at org.springframework.security.oauth2.provider.client.JdbcClientDetailsService.listClientDetails(JdbcClientDetailsService.java:159)
+		at ph.com.alliance.jpa.config.OAuth2ServerConfig.configure(OAuth2SecurityConfig.java:187)
+		at org.springframework.security.oauth2.config.annotation.web.configuration.AuthorizationServerSecurityConfiguration.configure(AuthorizationServerSecurityConfiguration.java:58)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:710)
+		at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:376)
+		... 86 more
+	Caused by: java.sql.SQLSyntaxErrorException: Table 'pcx.oauth_client_details' doesn't exist
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+		at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+		at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:955)
+		at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1005)
+		at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+		at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
+		at org.springframework.jdbc.core.JdbcTemplate$1.doInPreparedStatement(JdbcTemplate.java:678)
+		at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:617)
+		... 102 more
+17-Jun-2025 08:25:12.309 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Owner\Documents\PCX\apache-tomcat-9.0.106\SpringJpaHibernate\spring-jpa-hibernate\conf\Catalina\localhost\spring-hibernate-jpa.xml] has finished in [100,190] ms
+17-Jun-2025 08:25:12.311 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-Jun-2025 08:25:12.322 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [99826] milliseconds
+17-Jun-2025 08:35:50.876 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+17-Jun-2025 08:35:50.903 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+17-Jun-2025 08:35:50.905 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+17-Jun-2025 08:35:50.907 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+17-Jun-2025 08:35:50.911 WARNING [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [spring-hibernate-jpa] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+17-Jun-2025 08:35:50.912 WARNING [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [spring-hibernate-jpa] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.15/java.lang.Object.wait(Native Method)
+ java.base@17.0.15/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:85)
+ java.base@17.0.15/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@17.0.15/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.15/java.lang.Thread.run(Thread.java:840)
+17-Jun-2025 08:35:51.092 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1374)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:997)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:117)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:84)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+17-Jun-2025 08:35:51.092 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1374)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:997)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:117)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:84)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+17-Jun-2025 08:35:51.092 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1374)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:997)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:117)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:84)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+17-Jun-2025 08:35:51.092 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1374)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:997)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:117)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:84)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+17-Jun-2025 08:35:51.095 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1374)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:997)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:117)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:84)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+17-Jun-2025 08:35:51.095 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1374)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:997)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:117)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:84)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+17-Jun-2025 08:35:51.095 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1374)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:997)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:117)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:84)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+17-Jun-2025 08:35:51.095 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1374)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:997)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:117)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:84)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+17-Jun-2025 08:35:51.096 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1374)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:997)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:117)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:84)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+17-Jun-2025 08:39:35.044 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.106
+17-Jun-2025 08:39:35.050 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 5 2025 19:02:30 UTC
+17-Jun-2025 08:39:35.050 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.106.0
+17-Jun-2025 08:39:35.051 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+17-Jun-2025 08:39:35.051 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+17-Jun-2025 08:39:35.051 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+17-Jun-2025 08:39:35.051 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\Owner\.jdks\temurin-17.0.15
+17-Jun-2025 08:39:35.051 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.15+6
+17-Jun-2025 08:39:35.051 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Eclipse Adoptium
+17-Jun-2025 08:39:35.051 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Owner\Documents\PCX\apache-tomcat-9.0.106\SpringJpaHibernate\spring-jpa-hibernate
+17-Jun-2025 08:39:35.051 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Owner\Documents\PCX\apache-tomcat-9.0.106
+17-Jun-2025 08:39:35.067 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+17-Jun-2025 08:39:35.067 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+17-Jun-2025 08:39:35.067 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+17-Jun-2025 08:39:35.067 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+17-Jun-2025 08:39:35.067 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+17-Jun-2025 08:39:35.067 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:59585,suspend=y,server=n
+17-Jun-2025 08:39:35.067 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Users\Owner\AppData\Local\JetBrains\IdeaIC2025.1\captureAgent\debugger-agent.jar=file:///C:/Users/Owner/AppData/Local/Temp/capture10500845616672880935.props
+17-Jun-2025 08:39:35.067 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Owner\Documents\PCX\apache-tomcat-9.0.106
+17-Jun-2025 08:39:35.068 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Owner\Documents\PCX\apache-tomcat-9.0.106\SpringJpaHibernate\spring-jpa-hibernate
+17-Jun-2025 08:39:35.068 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Owner\Documents\PCX\apache-tomcat-9.0.106\SpringJpaHibernate\spring-jpa-hibernate\temp
+17-Jun-2025 08:39:35.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Owner\Documents\PCX\apache-tomcat-9.0.106\SpringJpaHibernate\spring-jpa-hibernate\conf\logging.properties
+17-Jun-2025 08:39:35.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Jun-2025 08:39:35.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dkotlinx.coroutines.debug.enable.creation.stack.trace=false
+17-Jun-2025 08:39:35.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Ddebugger.agent.enable.coroutines=true
+17-Jun-2025 08:39:35.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dkotlinx.coroutines.debug.enable.flows.stack.trace=true
+17-Jun-2025 08:39:35.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dkotlinx.coroutines.debug.enable.mutable.state.flows.stack.trace=true
+17-Jun-2025 08:39:35.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+17-Jun-2025 08:39:35.080 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+17-Jun-2025 08:39:35.081 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+17-Jun-2025 08:39:35.081 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+17-Jun-2025 08:39:35.092 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+17-Jun-2025 08:39:35.372 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+17-Jun-2025 08:39:35.400 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [548] milliseconds
+17-Jun-2025 08:39:35.444 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+17-Jun-2025 08:39:35.444 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.106]
+17-Jun-2025 08:39:35.455 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Owner\Documents\PCX\apache-tomcat-9.0.106\SpringJpaHibernate\spring-jpa-hibernate\conf\Catalina\localhost\spring-hibernate-jpa.xml]
+17-Jun-2025 08:40:00.068 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Jun-2025 08:40:47.689 WARNING [main] com.hazelcast.instance.impl.HazelcastInstanceFactory.null Hazelcast is starting in a Java modular environment (Java 9 and newer) but without proper access to required Java packages. Use additional Java arguments to provide Hazelcast access to Java internal API. The internal API access is used to get the best performance results. Arguments to be used:
+ --add-modules java.se --add-exports java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-opens java.management/sun.management=ALL-UNNAMED --add-opens jdk.management/com.sun.management.internal=ALL-UNNAMED
+17-Jun-2025 08:40:47.990 INFO [main] com.hazelcast.system.logo.null [192.168.211.95]:5701 [dev] [5.3.1] 
+	+       +  o    o     o     o---o o----o o      o---o     o     o----o o--o--o
+	+ +   + +  |    |    / \       /  |      |     /         / \    |         |   
+	+ + + + +  o----o   o   o     o   o----o |    o         o   o   o----o    |   
+	+ +   + +  |    |  /     \   /    |      |     \       /     \       |    |   
+	+       +  o    o o       o o---o o----o o----o o---o o       o o----o    o   
+17-Jun-2025 08:40:47.990 INFO [main] com.hazelcast.system.null [192.168.211.95]:5701 [dev] [5.3.1] Copyright (c) 2008-2023, Hazelcast, Inc. All Rights Reserved.
+17-Jun-2025 08:40:47.990 INFO [main] com.hazelcast.system.null [192.168.211.95]:5701 [dev] [5.3.1] Hazelcast Platform 5.3.1 (20230609 - 3e88b17) starting at [192.168.211.95]:5701
+17-Jun-2025 08:40:47.990 INFO [main] com.hazelcast.system.null [192.168.211.95]:5701 [dev] [5.3.1] Cluster name: dev
+17-Jun-2025 08:40:47.990 INFO [main] com.hazelcast.system.null [192.168.211.95]:5701 [dev] [5.3.1] Integrity Checker is disabled. Fail-fast on corrupted executables will not be performed. For more information, see the documentation for Integrity Checker.
+17-Jun-2025 08:40:47.996 INFO [main] com.hazelcast.system.null [192.168.211.95]:5701 [dev] [5.3.1] The Jet engine is disabled.
+To enable the Jet engine on the members, do one of the following:
+  - Change member config using Java API: config.getJetConfig().setEnabled(true)
+  - Change XML/YAML configuration property: Set hazelcast.jet.enabled to true
+  - Add system property: -Dhz.jet.enabled=true (for Hazelcast embedded, works only when loading config via Config.load)
+  - Add environment variable: HZ_JET_ENABLED=true (recommended when running container image. For Hazelcast embedded, works only when loading config via Config.load)
+17-Jun-2025 08:40:48.640 INFO [main] com.hazelcast.internal.tpc.TpcServerBootstrap.null [192.168.211.95]:5701 [dev] [5.3.1] TPC: disabled
+17-Jun-2025 08:40:49.153 INFO [main] com.hazelcast.system.security.null [192.168.211.95]:5701 [dev] [5.3.1] Enable DEBUG/FINE log level for log category com.hazelcast.system.security  or use -Dhazelcast.security.recommendations system property to see security recommendations and the status of current config.
+17-Jun-2025 08:40:49.363 INFO [main] com.hazelcast.instance.impl.Node.null [192.168.211.95]:5701 [dev] [5.3.1] Using Multicast discovery
+17-Jun-2025 08:40:49.373 WARNING [main] com.hazelcast.cp.CPSubsystem.null [192.168.211.95]:5701 [dev] [5.3.1] CP Subsystem is not enabled. CP data structures will operate in UNSAFE mode! Please note that UNSAFE mode will not provide strong consistency guarantees.
+17-Jun-2025 08:40:50.036 INFO [main] com.hazelcast.internal.diagnostics.Diagnostics.null [192.168.211.95]:5701 [dev] [5.3.1] Diagnostics disabled. To enable add -Dhazelcast.diagnostics.enabled=true to the JVM arguments.
+17-Jun-2025 08:40:50.045 INFO [main] com.hazelcast.core.LifecycleService.null [192.168.211.95]:5701 [dev] [5.3.1] [192.168.211.95]:5701 is STARTING
+17-Jun-2025 08:40:52.700 INFO [main] com.hazelcast.internal.cluster.ClusterService.null [192.168.211.95]:5701 [dev] [5.3.1] 
+
+Members {size:1, ver:1} [
+	Member [192.168.211.95]:5701 - d15f4e1a-85ba-48e6-8229-9ff3f2cd7e31 this
+]
+
+17-Jun-2025 08:40:52.737 INFO [main] com.hazelcast.core.LifecycleService.null [192.168.211.95]:5701 [dev] [5.3.1] [192.168.211.95]:5701 is STARTED
+17-Jun-2025 08:41:08.643 INFO [main] com.hazelcast.core.LifecycleService.null [192.168.211.95]:5701 [dev] [5.3.1] [192.168.211.95]:5701 is SHUTTING_DOWN
+17-Jun-2025 08:41:08.652 INFO [main] com.hazelcast.instance.impl.Node.null [192.168.211.95]:5701 [dev] [5.3.1] Shutting down multicast service...
+17-Jun-2025 08:41:08.653 INFO [main] com.hazelcast.instance.impl.Node.null [192.168.211.95]:5701 [dev] [5.3.1] Shutting down connection manager...
+17-Jun-2025 08:41:08.654 INFO [main] com.hazelcast.instance.impl.Node.null [192.168.211.95]:5701 [dev] [5.3.1] Shutting down node engine...
+17-Jun-2025 08:41:08.687 INFO [main] com.hazelcast.instance.impl.NodeExtension.null [192.168.211.95]:5701 [dev] [5.3.1] Destroying node NodeExtension.
+17-Jun-2025 08:41:08.688 INFO [main] com.hazelcast.instance.impl.Node.null [192.168.211.95]:5701 [dev] [5.3.1] Hazelcast Shutdown is completed in 39 ms.
+17-Jun-2025 08:41:08.688 INFO [main] com.hazelcast.core.LifecycleService.null [192.168.211.95]:5701 [dev] [5.3.1] [192.168.211.95]:5701 is SHUTDOWN
+17-Jun-2025 08:41:09.086 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\Users\Owner\Documents\PCX\apache-tomcat-9.0.106\SpringJpaHibernate\spring-jpa-hibernate\conf\Catalina\localhost\spring-hibernate-jpa.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:602)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:603)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:680)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1839)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+		at --- Async.Stack.Trace --- (captured by IntelliJ IDEA debugger)
+		at java.base/java.util.concurrent.FutureTask.<init>(FutureTask.java:151)
+		at java.base/java.util.concurrent.AbstractExecutorService.newTaskFor(AbstractExecutorService.java:98)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:122)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:575)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:466)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1579)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:312)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:389)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:336)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:776)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:721)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+		at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+		at --- Async.Stack.Trace --- (captured by IntelliJ IDEA debugger)
+		at java.base/java.util.concurrent.FutureTask.<init>(FutureTask.java:132)
+		at java.base/java.util.concurrent.AbstractExecutorService.newTaskFor(AbstractExecutorService.java:113)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:144)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:211)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:412)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:874)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:739)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/spring-hibernate-jpa]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:406)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:179)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		... 43 more
+	Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration': Unsatisfied dependency expressed through method 'setFilterChainProxySecurityConfigurer' parameter 1; nested exception is org.springframework.beans.factory.BeanExpressionException: Expression parsing failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.oauth2.config.annotation.web.configuration.AuthorizationServerSecurityConfiguration': Injection of autowired dependencies failed; nested exception is org.springframework.jdbc.BadSqlGrammarException: PreparedStatementCallback; bad SQL grammar [select client_id, client_secret, resource_ids, scope, authorized_grant_types, web_server_redirect_uri, authorities, access_token_validity, refresh_token_validity, additional_information, autoapprove from oauth_client_details order by client_id]; nested exception is java.sql.SQLSyntaxErrorException: Table 'pcx.oauth_client_details' doesn't exist
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:678)
+		at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:376)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1377)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:575)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:848)
+		at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:865)
+		at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:548)
+		at ph.com.alliance.jpa.config.WebAppInitializer.onStartup(WebAppInitializer.java:41)
+		at org.springframework.web.SpringServletContainerInitializer.onStartup(SpringServletContainerInitializer.java:171)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4491)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		... 44 more
+	Caused by: org.springframework.beans.factory.BeanExpressionException: Expression parsing failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.oauth2.config.annotation.web.configuration.AuthorizationServerSecurityConfiguration': Injection of autowired dependencies failed; nested exception is org.springframework.jdbc.BadSqlGrammarException: PreparedStatementCallback; bad SQL grammar [select client_id, client_secret, resource_ids, scope, authorized_grant_types, web_server_redirect_uri, authorities, access_token_validity, refresh_token_validity, additional_information, autoapprove from oauth_client_details order by client_id]; nested exception is java.sql.SQLSyntaxErrorException: Table 'pcx.oauth_client_details' doesn't exist
+		at org.springframework.context.expression.StandardBeanExpressionResolver.evaluate(StandardBeanExpressionResolver.java:164)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.evaluateBeanDefinitionString(AbstractBeanFactory.java:1454)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1191)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1168)
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:670)
+		... 60 more
+	Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.oauth2.config.annotation.web.configuration.AuthorizationServerSecurityConfiguration': Injection of autowired dependencies failed; nested exception is org.springframework.jdbc.BadSqlGrammarException: PreparedStatementCallback; bad SQL grammar [select client_id, client_secret, resource_ids, scope, authorized_grant_types, web_server_redirect_uri, authorities, access_token_validity, refresh_token_validity, additional_information, autoapprove from oauth_client_details order by client_id]; nested exception is java.sql.SQLSyntaxErrorException: Table 'pcx.oauth_client_details' doesn't exist
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:382)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1377)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:575)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:598)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:586)
+		at org.springframework.security.config.annotation.web.configuration.AutowiredWebSecurityConfigurersIgnoreParents.getWebSecurityConfigurers(AutowiredWebSecurityConfigurersIgnoreParents.java:53)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+		at org.springframework.expression.spel.support.ReflectiveMethodExecutor.execute(ReflectiveMethodExecutor.java:130)
+		at org.springframework.expression.spel.ast.MethodReference.getValueInternal(MethodReference.java:138)
+		at org.springframework.expression.spel.ast.MethodReference.access$000(MethodReference.java:54)
+		at org.springframework.expression.spel.ast.MethodReference$MethodValueRef.getValue(MethodReference.java:390)
+		at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:90)
+		at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:111)
+		at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:265)
+		at org.springframework.context.expression.StandardBeanExpressionResolver.evaluate(StandardBeanExpressionResolver.java:161)
+		... 64 more
+	Caused by: org.springframework.jdbc.BadSqlGrammarException: PreparedStatementCallback; bad SQL grammar [select client_id, client_secret, resource_ids, scope, authorized_grant_types, web_server_redirect_uri, authorities, access_token_validity, refresh_token_validity, additional_information, autoapprove from oauth_client_details order by client_id]; nested exception is java.sql.SQLSyntaxErrorException: Table 'pcx.oauth_client_details' doesn't exist
+		at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:234)
+		at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+		at org.springframework.jdbc.core.JdbcTemplate.translateException(JdbcTemplate.java:1414)
+		at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:632)
+		at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:669)
+		at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:694)
+		at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:748)
+		at org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate.query(NamedParameterJdbcTemplate.java:212)
+		at org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate.query(NamedParameterJdbcTemplate.java:219)
+		at org.springframework.security.oauth2.common.util.DefaultJdbcListFactory.getList(DefaultJdbcListFactory.java:41)
+		at org.springframework.security.oauth2.provider.client.JdbcClientDetailsService.listClientDetails(JdbcClientDetailsService.java:159)
+		at ph.com.alliance.jpa.config.OAuth2ServerConfig.configure(OAuth2SecurityConfig.java:187)
+		at org.springframework.security.oauth2.config.annotation.web.configuration.AuthorizationServerSecurityConfiguration.configure(AuthorizationServerSecurityConfiguration.java:58)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:710)
+		at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:376)
+		... 86 more
+	Caused by: java.sql.SQLSyntaxErrorException: Table 'pcx.oauth_client_details' doesn't exist
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+		at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+		at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:955)
+		at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1005)
+		at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+		at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
+		at org.springframework.jdbc.core.JdbcTemplate$1.doInPreparedStatement(JdbcTemplate.java:678)
+		at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:617)
+		... 102 more
+17-Jun-2025 08:41:09.096 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Owner\Documents\PCX\apache-tomcat-9.0.106\SpringJpaHibernate\spring-jpa-hibernate\conf\Catalina\localhost\spring-hibernate-jpa.xml] has finished in [93,642] ms
+17-Jun-2025 08:41:09.099 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-Jun-2025 08:41:09.108 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [93706] milliseconds
+17-Jun-2025 08:53:35.110 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+17-Jun-2025 08:53:35.142 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+17-Jun-2025 08:53:35.145 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+17-Jun-2025 08:53:35.148 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+17-Jun-2025 08:53:35.152 WARNING [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [spring-hibernate-jpa] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+17-Jun-2025 08:53:35.153 WARNING [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [spring-hibernate-jpa] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.15/java.lang.Object.wait(Native Method)
+ java.base@17.0.15/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:85)
+ java.base@17.0.15/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@17.0.15/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.15/java.lang.Thread.run(Thread.java:840)
+17-Jun-2025 08:53:35.320 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1374)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:997)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:117)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:84)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+17-Jun-2025 08:53:35.320 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1374)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:997)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:117)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:84)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+17-Jun-2025 08:53:35.320 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1374)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:997)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:117)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:84)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+17-Jun-2025 08:53:35.320 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1374)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:997)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:117)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:84)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+17-Jun-2025 08:53:35.322 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1374)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:997)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:117)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:84)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+17-Jun-2025 08:53:35.322 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1374)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:997)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:117)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:84)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+17-Jun-2025 08:53:35.322 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1374)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:997)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:117)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:84)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+17-Jun-2025 08:53:35.322 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1374)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:997)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:117)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:84)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+17-Jun-2025 09:02:38.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.106
+17-Jun-2025 09:02:38.438 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 5 2025 19:02:30 UTC
+17-Jun-2025 09:02:38.438 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.106.0
+17-Jun-2025 09:02:38.439 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+17-Jun-2025 09:02:38.439 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+17-Jun-2025 09:02:38.439 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+17-Jun-2025 09:02:38.439 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\Owner\.jdks\temurin-17.0.15
+17-Jun-2025 09:02:38.439 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.15+6
+17-Jun-2025 09:02:38.439 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Eclipse Adoptium
+17-Jun-2025 09:02:38.439 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Owner\Documents\PCX\apache-tomcat-9.0.106\SpringJpaHibernate\spring-jpa-hibernate
+17-Jun-2025 09:02:38.439 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Owner\Documents\PCX\apache-tomcat-9.0.106
+17-Jun-2025 09:02:38.457 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+17-Jun-2025 09:02:38.457 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+17-Jun-2025 09:02:38.458 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+17-Jun-2025 09:02:38.458 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+17-Jun-2025 09:02:38.458 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+17-Jun-2025 09:02:38.458 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:56403,suspend=y,server=n
+17-Jun-2025 09:02:38.458 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Users\Owner\AppData\Local\JetBrains\IdeaIC2025.1\captureAgent\debugger-agent.jar=file:///C:/Users/Owner/AppData/Local/Temp/capture4394686149047133329.props
+17-Jun-2025 09:02:38.458 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Owner\Documents\PCX\apache-tomcat-9.0.106
+17-Jun-2025 09:02:38.458 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Owner\Documents\PCX\apache-tomcat-9.0.106\SpringJpaHibernate\spring-jpa-hibernate
+17-Jun-2025 09:02:38.458 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Owner\Documents\PCX\apache-tomcat-9.0.106\SpringJpaHibernate\spring-jpa-hibernate\temp
+17-Jun-2025 09:02:38.459 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Owner\Documents\PCX\apache-tomcat-9.0.106\SpringJpaHibernate\spring-jpa-hibernate\conf\logging.properties
+17-Jun-2025 09:02:38.459 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Jun-2025 09:02:38.459 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dkotlinx.coroutines.debug.enable.creation.stack.trace=false
+17-Jun-2025 09:02:38.459 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Ddebugger.agent.enable.coroutines=true
+17-Jun-2025 09:02:38.459 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dkotlinx.coroutines.debug.enable.flows.stack.trace=true
+17-Jun-2025 09:02:38.459 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dkotlinx.coroutines.debug.enable.mutable.state.flows.stack.trace=true
+17-Jun-2025 09:02:38.459 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+17-Jun-2025 09:02:38.465 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+17-Jun-2025 09:02:38.465 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+17-Jun-2025 09:02:38.465 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+17-Jun-2025 09:02:38.472 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+17-Jun-2025 09:02:38.781 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+17-Jun-2025 09:02:38.811 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [648] milliseconds
+17-Jun-2025 09:02:38.853 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+17-Jun-2025 09:02:38.853 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.106]
+17-Jun-2025 09:02:38.862 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Owner\Documents\PCX\apache-tomcat-9.0.106\SpringJpaHibernate\spring-jpa-hibernate\conf\Catalina\localhost\spring-hibernate-jpa.xml]
+17-Jun-2025 09:03:05.019 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Jun-2025 09:04:00.333 WARNING [main] com.hazelcast.instance.impl.HazelcastInstanceFactory.null Hazelcast is starting in a Java modular environment (Java 9 and newer) but without proper access to required Java packages. Use additional Java arguments to provide Hazelcast access to Java internal API. The internal API access is used to get the best performance results. Arguments to be used:
+ --add-modules java.se --add-exports java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-opens java.management/sun.management=ALL-UNNAMED --add-opens jdk.management/com.sun.management.internal=ALL-UNNAMED
+17-Jun-2025 09:04:00.600 INFO [main] com.hazelcast.system.logo.null [192.168.211.95]:5701 [dev] [5.3.1] 
+	+       +  o    o     o     o---o o----o o      o---o     o     o----o o--o--o
+	+ +   + +  |    |    / \       /  |      |     /         / \    |         |   
+	+ + + + +  o----o   o   o     o   o----o |    o         o   o   o----o    |   
+	+ +   + +  |    |  /     \   /    |      |     \       /     \       |    |   
+	+       +  o    o o       o o---o o----o o----o o---o o       o o----o    o   
+17-Jun-2025 09:04:00.601 INFO [main] com.hazelcast.system.null [192.168.211.95]:5701 [dev] [5.3.1] Copyright (c) 2008-2023, Hazelcast, Inc. All Rights Reserved.
+17-Jun-2025 09:04:00.601 INFO [main] com.hazelcast.system.null [192.168.211.95]:5701 [dev] [5.3.1] Hazelcast Platform 5.3.1 (20230609 - 3e88b17) starting at [192.168.211.95]:5701
+17-Jun-2025 09:04:00.601 INFO [main] com.hazelcast.system.null [192.168.211.95]:5701 [dev] [5.3.1] Cluster name: dev
+17-Jun-2025 09:04:00.601 INFO [main] com.hazelcast.system.null [192.168.211.95]:5701 [dev] [5.3.1] Integrity Checker is disabled. Fail-fast on corrupted executables will not be performed. For more information, see the documentation for Integrity Checker.
+17-Jun-2025 09:04:00.606 INFO [main] com.hazelcast.system.null [192.168.211.95]:5701 [dev] [5.3.1] The Jet engine is disabled.
+To enable the Jet engine on the members, do one of the following:
+  - Change member config using Java API: config.getJetConfig().setEnabled(true)
+  - Change XML/YAML configuration property: Set hazelcast.jet.enabled to true
+  - Add system property: -Dhz.jet.enabled=true (for Hazelcast embedded, works only when loading config via Config.load)
+  - Add environment variable: HZ_JET_ENABLED=true (recommended when running container image. For Hazelcast embedded, works only when loading config via Config.load)
+17-Jun-2025 09:04:01.227 INFO [main] com.hazelcast.internal.tpc.TpcServerBootstrap.null [192.168.211.95]:5701 [dev] [5.3.1] TPC: disabled
+17-Jun-2025 09:04:01.747 INFO [main] com.hazelcast.system.security.null [192.168.211.95]:5701 [dev] [5.3.1] Enable DEBUG/FINE log level for log category com.hazelcast.system.security  or use -Dhazelcast.security.recommendations system property to see security recommendations and the status of current config.
+17-Jun-2025 09:04:01.961 INFO [main] com.hazelcast.instance.impl.Node.null [192.168.211.95]:5701 [dev] [5.3.1] Using Multicast discovery
+17-Jun-2025 09:04:01.971 WARNING [main] com.hazelcast.cp.CPSubsystem.null [192.168.211.95]:5701 [dev] [5.3.1] CP Subsystem is not enabled. CP data structures will operate in UNSAFE mode! Please note that UNSAFE mode will not provide strong consistency guarantees.
+17-Jun-2025 09:04:02.623 INFO [main] com.hazelcast.internal.diagnostics.Diagnostics.null [192.168.211.95]:5701 [dev] [5.3.1] Diagnostics disabled. To enable add -Dhazelcast.diagnostics.enabled=true to the JVM arguments.
+17-Jun-2025 09:04:02.633 INFO [main] com.hazelcast.core.LifecycleService.null [192.168.211.95]:5701 [dev] [5.3.1] [192.168.211.95]:5701 is STARTING
+17-Jun-2025 09:04:05.287 INFO [main] com.hazelcast.internal.cluster.ClusterService.null [192.168.211.95]:5701 [dev] [5.3.1] 
+
+Members {size:1, ver:1} [
+	Member [192.168.211.95]:5701 - 429be015-0729-4c6f-8b45-2af2f7d16fb7 this
+]
+
+17-Jun-2025 09:04:05.324 INFO [main] com.hazelcast.core.LifecycleService.null [192.168.211.95]:5701 [dev] [5.3.1] [192.168.211.95]:5701 is STARTED
+17-Jun-2025 09:04:21.358 INFO [main] com.hazelcast.core.LifecycleService.null [192.168.211.95]:5701 [dev] [5.3.1] [192.168.211.95]:5701 is SHUTTING_DOWN
+17-Jun-2025 09:04:21.367 INFO [main] com.hazelcast.instance.impl.Node.null [192.168.211.95]:5701 [dev] [5.3.1] Shutting down multicast service...
+17-Jun-2025 09:04:21.368 INFO [main] com.hazelcast.instance.impl.Node.null [192.168.211.95]:5701 [dev] [5.3.1] Shutting down connection manager...
+17-Jun-2025 09:04:21.368 INFO [main] com.hazelcast.instance.impl.Node.null [192.168.211.95]:5701 [dev] [5.3.1] Shutting down node engine...
+17-Jun-2025 09:04:21.380 INFO [main] com.hazelcast.instance.impl.NodeExtension.null [192.168.211.95]:5701 [dev] [5.3.1] Destroying node NodeExtension.
+17-Jun-2025 09:04:21.380 INFO [main] com.hazelcast.instance.impl.Node.null [192.168.211.95]:5701 [dev] [5.3.1] Hazelcast Shutdown is completed in 16 ms.
+17-Jun-2025 09:04:21.381 INFO [main] com.hazelcast.core.LifecycleService.null [192.168.211.95]:5701 [dev] [5.3.1] [192.168.211.95]:5701 is SHUTDOWN
+17-Jun-2025 09:04:21.741 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\Users\Owner\Documents\PCX\apache-tomcat-9.0.106\SpringJpaHibernate\spring-jpa-hibernate\conf\Catalina\localhost\spring-hibernate-jpa.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:602)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:603)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:680)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1839)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+		at --- Async.Stack.Trace --- (captured by IntelliJ IDEA debugger)
+		at java.base/java.util.concurrent.FutureTask.<init>(FutureTask.java:151)
+		at java.base/java.util.concurrent.AbstractExecutorService.newTaskFor(AbstractExecutorService.java:98)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:122)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:575)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:466)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1579)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:312)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:389)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:336)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:776)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:721)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+		at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+		at --- Async.Stack.Trace --- (captured by IntelliJ IDEA debugger)
+		at java.base/java.util.concurrent.FutureTask.<init>(FutureTask.java:132)
+		at java.base/java.util.concurrent.AbstractExecutorService.newTaskFor(AbstractExecutorService.java:113)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:144)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:211)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:412)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:874)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:739)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/spring-hibernate-jpa]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:406)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:179)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		... 43 more
+	Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration': Unsatisfied dependency expressed through method 'setFilterChainProxySecurityConfigurer' parameter 1; nested exception is org.springframework.beans.factory.BeanExpressionException: Expression parsing failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.oauth2.config.annotation.web.configuration.AuthorizationServerSecurityConfiguration': Injection of autowired dependencies failed; nested exception is org.springframework.jdbc.BadSqlGrammarException: PreparedStatementCallback; bad SQL grammar [select client_id, client_secret, resource_ids, scope, authorized_grant_types, web_server_redirect_uri, authorities, access_token_validity, refresh_token_validity, additional_information, autoapprove from oauth_client_details order by client_id]; nested exception is java.sql.SQLSyntaxErrorException: Table 'pcx.oauth_client_details' doesn't exist
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:678)
+		at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:376)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1377)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:575)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:848)
+		at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:865)
+		at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:548)
+		at ph.com.alliance.jpa.config.WebAppInitializer.onStartup(WebAppInitializer.java:41)
+		at org.springframework.web.SpringServletContainerInitializer.onStartup(SpringServletContainerInitializer.java:171)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4491)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		... 44 more
+	Caused by: org.springframework.beans.factory.BeanExpressionException: Expression parsing failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.oauth2.config.annotation.web.configuration.AuthorizationServerSecurityConfiguration': Injection of autowired dependencies failed; nested exception is org.springframework.jdbc.BadSqlGrammarException: PreparedStatementCallback; bad SQL grammar [select client_id, client_secret, resource_ids, scope, authorized_grant_types, web_server_redirect_uri, authorities, access_token_validity, refresh_token_validity, additional_information, autoapprove from oauth_client_details order by client_id]; nested exception is java.sql.SQLSyntaxErrorException: Table 'pcx.oauth_client_details' doesn't exist
+		at org.springframework.context.expression.StandardBeanExpressionResolver.evaluate(StandardBeanExpressionResolver.java:164)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.evaluateBeanDefinitionString(AbstractBeanFactory.java:1454)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1191)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1168)
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:670)
+		... 60 more
+	Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.oauth2.config.annotation.web.configuration.AuthorizationServerSecurityConfiguration': Injection of autowired dependencies failed; nested exception is org.springframework.jdbc.BadSqlGrammarException: PreparedStatementCallback; bad SQL grammar [select client_id, client_secret, resource_ids, scope, authorized_grant_types, web_server_redirect_uri, authorities, access_token_validity, refresh_token_validity, additional_information, autoapprove from oauth_client_details order by client_id]; nested exception is java.sql.SQLSyntaxErrorException: Table 'pcx.oauth_client_details' doesn't exist
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:382)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1377)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:575)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:598)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:586)
+		at org.springframework.security.config.annotation.web.configuration.AutowiredWebSecurityConfigurersIgnoreParents.getWebSecurityConfigurers(AutowiredWebSecurityConfigurersIgnoreParents.java:53)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+		at org.springframework.expression.spel.support.ReflectiveMethodExecutor.execute(ReflectiveMethodExecutor.java:130)
+		at org.springframework.expression.spel.ast.MethodReference.getValueInternal(MethodReference.java:138)
+		at org.springframework.expression.spel.ast.MethodReference.access$000(MethodReference.java:54)
+		at org.springframework.expression.spel.ast.MethodReference$MethodValueRef.getValue(MethodReference.java:390)
+		at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:90)
+		at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:111)
+		at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:265)
+		at org.springframework.context.expression.StandardBeanExpressionResolver.evaluate(StandardBeanExpressionResolver.java:161)
+		... 64 more
+	Caused by: org.springframework.jdbc.BadSqlGrammarException: PreparedStatementCallback; bad SQL grammar [select client_id, client_secret, resource_ids, scope, authorized_grant_types, web_server_redirect_uri, authorities, access_token_validity, refresh_token_validity, additional_information, autoapprove from oauth_client_details order by client_id]; nested exception is java.sql.SQLSyntaxErrorException: Table 'pcx.oauth_client_details' doesn't exist
+		at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:234)
+		at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+		at org.springframework.jdbc.core.JdbcTemplate.translateException(JdbcTemplate.java:1414)
+		at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:632)
+		at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:669)
+		at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:694)
+		at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:748)
+		at org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate.query(NamedParameterJdbcTemplate.java:212)
+		at org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate.query(NamedParameterJdbcTemplate.java:219)
+		at org.springframework.security.oauth2.common.util.DefaultJdbcListFactory.getList(DefaultJdbcListFactory.java:41)
+		at org.springframework.security.oauth2.provider.client.JdbcClientDetailsService.listClientDetails(JdbcClientDetailsService.java:159)
+		at ph.com.alliance.jpa.config.OAuth2ServerConfig.configure(OAuth2SecurityConfig.java:187)
+		at org.springframework.security.oauth2.config.annotation.web.configuration.AuthorizationServerSecurityConfiguration.configure(AuthorizationServerSecurityConfiguration.java:58)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:710)
+		at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:376)
+		... 86 more
+	Caused by: java.sql.SQLSyntaxErrorException: Table 'pcx.oauth_client_details' doesn't exist
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+		at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+		at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:955)
+		at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1005)
+		at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+		at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
+		at org.springframework.jdbc.core.JdbcTemplate$1.doInPreparedStatement(JdbcTemplate.java:678)
+		at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:617)
+		... 102 more
+17-Jun-2025 09:04:21.758 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Owner\Documents\PCX\apache-tomcat-9.0.106\SpringJpaHibernate\spring-jpa-hibernate\conf\Catalina\localhost\spring-hibernate-jpa.xml] has finished in [102,895] ms
+17-Jun-2025 09:04:21.761 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-Jun-2025 09:04:21.769 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [102958] milliseconds
+17-Jun-2025 09:12:33.511 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+17-Jun-2025 09:12:33.538 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+17-Jun-2025 09:12:33.541 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+17-Jun-2025 09:12:33.543 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+17-Jun-2025 09:12:33.547 WARNING [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [spring-hibernate-jpa] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+17-Jun-2025 09:12:33.547 WARNING [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [spring-hibernate-jpa] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.15/java.lang.Object.wait(Native Method)
+ java.base@17.0.15/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:85)
+ java.base@17.0.15/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@17.0.15/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.15/java.lang.Thread.run(Thread.java:840)
+17-Jun-2025 09:12:33.721 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1374)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:997)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:117)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:84)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+17-Jun-2025 09:12:33.722 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1374)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:997)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:117)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:84)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+17-Jun-2025 09:12:33.722 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1374)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:997)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:117)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:84)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+17-Jun-2025 09:12:33.722 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1374)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:997)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:117)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:84)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+17-Jun-2025 09:19:22.352 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.106
+17-Jun-2025 09:19:22.356 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 5 2025 19:02:30 UTC
+17-Jun-2025 09:19:22.356 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.106.0
+17-Jun-2025 09:19:22.356 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+17-Jun-2025 09:19:22.356 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+17-Jun-2025 09:19:22.357 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+17-Jun-2025 09:19:22.357 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\Owner\.jdks\temurin-17.0.15
+17-Jun-2025 09:19:22.357 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.15+6
+17-Jun-2025 09:19:22.357 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Eclipse Adoptium
+17-Jun-2025 09:19:22.357 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Owner\Documents\PCX\apache-tomcat-9.0.106\SpringJpaHibernate\spring-jpa-hibernate
+17-Jun-2025 09:19:22.357 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Owner\Documents\PCX\apache-tomcat-9.0.106
+17-Jun-2025 09:19:22.365 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+17-Jun-2025 09:19:22.366 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+17-Jun-2025 09:19:22.366 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+17-Jun-2025 09:19:22.369 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+17-Jun-2025 09:19:22.369 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+17-Jun-2025 09:19:22.369 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:65393,suspend=y,server=n
+17-Jun-2025 09:19:22.369 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Users\Owner\AppData\Local\JetBrains\IdeaIC2025.1\captureAgent\debugger-agent.jar=file:///C:/Users/Owner/AppData/Local/Temp/capture2053706946669105602.props
+17-Jun-2025 09:19:22.369 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Owner\Documents\PCX\apache-tomcat-9.0.106
+17-Jun-2025 09:19:22.370 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Owner\Documents\PCX\apache-tomcat-9.0.106\SpringJpaHibernate\spring-jpa-hibernate
+17-Jun-2025 09:19:22.370 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Owner\Documents\PCX\apache-tomcat-9.0.106\SpringJpaHibernate\spring-jpa-hibernate\temp
+17-Jun-2025 09:19:22.370 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Owner\Documents\PCX\apache-tomcat-9.0.106\SpringJpaHibernate\spring-jpa-hibernate\conf\logging.properties
+17-Jun-2025 09:19:22.370 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Jun-2025 09:19:22.370 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dkotlinx.coroutines.debug.enable.creation.stack.trace=false
+17-Jun-2025 09:19:22.370 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Ddebugger.agent.enable.coroutines=true
+17-Jun-2025 09:19:22.370 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dkotlinx.coroutines.debug.enable.flows.stack.trace=true
+17-Jun-2025 09:19:22.370 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dkotlinx.coroutines.debug.enable.mutable.state.flows.stack.trace=true
+17-Jun-2025 09:19:22.370 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+17-Jun-2025 09:19:22.374 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+17-Jun-2025 09:19:22.374 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+17-Jun-2025 09:19:22.374 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+17-Jun-2025 09:19:22.380 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+17-Jun-2025 09:19:22.681 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+17-Jun-2025 09:19:22.708 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [511] milliseconds
+17-Jun-2025 09:19:22.746 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+17-Jun-2025 09:19:22.746 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.106]
+17-Jun-2025 09:19:22.755 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Owner\Documents\PCX\apache-tomcat-9.0.106\SpringJpaHibernate\spring-jpa-hibernate\conf\Catalina\localhost\spring-hibernate-jpa.xml]
+17-Jun-2025 09:19:47.253 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Jun-2025 09:20:35.656 WARNING [main] com.hazelcast.instance.impl.HazelcastInstanceFactory.null Hazelcast is starting in a Java modular environment (Java 9 and newer) but without proper access to required Java packages. Use additional Java arguments to provide Hazelcast access to Java internal API. The internal API access is used to get the best performance results. Arguments to be used:
+ --add-modules java.se --add-exports java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-opens java.management/sun.management=ALL-UNNAMED --add-opens jdk.management/com.sun.management.internal=ALL-UNNAMED
+17-Jun-2025 09:20:35.948 INFO [main] com.hazelcast.system.logo.null [192.168.211.95]:5701 [dev] [5.3.1] 
+	+       +  o    o     o     o---o o----o o      o---o     o     o----o o--o--o
+	+ +   + +  |    |    / \       /  |      |     /         / \    |         |   
+	+ + + + +  o----o   o   o     o   o----o |    o         o   o   o----o    |   
+	+ +   + +  |    |  /     \   /    |      |     \       /     \       |    |   
+	+       +  o    o o       o o---o o----o o----o o---o o       o o----o    o   
+17-Jun-2025 09:20:35.948 INFO [main] com.hazelcast.system.null [192.168.211.95]:5701 [dev] [5.3.1] Copyright (c) 2008-2023, Hazelcast, Inc. All Rights Reserved.
+17-Jun-2025 09:20:35.948 INFO [main] com.hazelcast.system.null [192.168.211.95]:5701 [dev] [5.3.1] Hazelcast Platform 5.3.1 (20230609 - 3e88b17) starting at [192.168.211.95]:5701
+17-Jun-2025 09:20:35.948 INFO [main] com.hazelcast.system.null [192.168.211.95]:5701 [dev] [5.3.1] Cluster name: dev
+17-Jun-2025 09:20:35.948 INFO [main] com.hazelcast.system.null [192.168.211.95]:5701 [dev] [5.3.1] Integrity Checker is disabled. Fail-fast on corrupted executables will not be performed. For more information, see the documentation for Integrity Checker.
+17-Jun-2025 09:20:35.954 INFO [main] com.hazelcast.system.null [192.168.211.95]:5701 [dev] [5.3.1] The Jet engine is disabled.
+To enable the Jet engine on the members, do one of the following:
+  - Change member config using Java API: config.getJetConfig().setEnabled(true)
+  - Change XML/YAML configuration property: Set hazelcast.jet.enabled to true
+  - Add system property: -Dhz.jet.enabled=true (for Hazelcast embedded, works only when loading config via Config.load)
+  - Add environment variable: HZ_JET_ENABLED=true (recommended when running container image. For Hazelcast embedded, works only when loading config via Config.load)
+17-Jun-2025 09:20:36.566 INFO [main] com.hazelcast.internal.tpc.TpcServerBootstrap.null [192.168.211.95]:5701 [dev] [5.3.1] TPC: disabled
+17-Jun-2025 09:20:37.088 INFO [main] com.hazelcast.system.security.null [192.168.211.95]:5701 [dev] [5.3.1] Enable DEBUG/FINE log level for log category com.hazelcast.system.security  or use -Dhazelcast.security.recommendations system property to see security recommendations and the status of current config.
+17-Jun-2025 09:20:37.302 INFO [main] com.hazelcast.instance.impl.Node.null [192.168.211.95]:5701 [dev] [5.3.1] Using Multicast discovery
+17-Jun-2025 09:20:37.312 WARNING [main] com.hazelcast.cp.CPSubsystem.null [192.168.211.95]:5701 [dev] [5.3.1] CP Subsystem is not enabled. CP data structures will operate in UNSAFE mode! Please note that UNSAFE mode will not provide strong consistency guarantees.
+17-Jun-2025 09:20:37.966 INFO [main] com.hazelcast.internal.diagnostics.Diagnostics.null [192.168.211.95]:5701 [dev] [5.3.1] Diagnostics disabled. To enable add -Dhazelcast.diagnostics.enabled=true to the JVM arguments.
+17-Jun-2025 09:20:37.976 INFO [main] com.hazelcast.core.LifecycleService.null [192.168.211.95]:5701 [dev] [5.3.1] [192.168.211.95]:5701 is STARTING
+17-Jun-2025 09:20:38.121 INFO [main] com.hazelcast.internal.cluster.impl.MulticastJoiner.null [192.168.211.95]:5701 [dev] [5.3.1] Trying to join to discovered node: [192.168.211.121]:5701
+17-Jun-2025 09:20:48.171 INFO [hz.hazelcast-instance.cached.thread-2] com.hazelcast.internal.cluster.impl.MulticastJoiner.null [192.168.211.95]:5701 [dev] [5.3.1] [192.168.211.121]:5701 is added to the blacklist.
+17-Jun-2025 09:20:50.843 INFO [main] com.hazelcast.internal.cluster.ClusterService.null [192.168.211.95]:5701 [dev] [5.3.1] 
+
+Members {size:1, ver:1} [
+	Member [192.168.211.95]:5701 - ee2ad625-b303-45f2-9999-6b1ee0c3cc29 this
+]
+
+17-Jun-2025 09:20:50.881 INFO [main] com.hazelcast.core.LifecycleService.null [192.168.211.95]:5701 [dev] [5.3.1] [192.168.211.95]:5701 is STARTED
+17-Jun-2025 09:21:08.506 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Owner\Documents\PCX\apache-tomcat-9.0.106\SpringJpaHibernate\spring-jpa-hibernate\conf\Catalina\localhost\spring-hibernate-jpa.xml] has finished in [105,751] ms
+17-Jun-2025 09:21:08.510 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-Jun-2025 09:21:08.521 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [105812] milliseconds
+17-Jun-2025 09:24:10.942 INFO [hz.hazelcast-instance.HealthMonitor] com.hazelcast.internal.diagnostics.HealthMonitor.null [192.168.211.95]:5701 [dev] [5.3.1] processors=12, physical.memory.total=15.8G, physical.memory.free=4.6G, swap.space.total=0, swap.space.free=0, heap.memory.used=498.9M, heap.memory.free=73.0M, heap.memory.total=572.0M, heap.memory.max=4.0G, heap.memory.used/total=87.23%, heap.memory.used/max=12.31%, minor.gc.count=89, minor.gc.time=628ms, major.gc.count=0, major.gc.time=0ms, load.process=0.00%, load.system=78.13%, load.systemAverage=n/a thread.count=194, thread.peakCount=198, cluster.timeDiff=0, event.q.size=0, executor.q.async.size=0, executor.q.client.size=0, executor.q.client.query.size=0, executor.q.client.blocking.size=0, executor.q.query.size=0, executor.q.scheduled.size=0, executor.q.io.size=0, executor.q.system.size=0, executor.q.operations.size=0, executor.q.priorityOperation.size=0, operations.completed.count=1, executor.q.mapLoad.size=0, executor.q.mapLoadAllKeys.size=0, executor.q.cluster.size=0, executor.q.response.size=0, operations.running.count=0, operations.pending.invocations.percentage=0.00%, operations.pending.invocations.count=0, proxy.count=0, clientEndpoint.count=0, connection.active.count=0, client.connection.count=0, connection.count=0
+17-Jun-2025 12:21:32.531 WARNING [hz.hazelcast-instance.InvocationMonitorThread] com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor.null [192.168.211.95]:5701 [dev] [5.3.1] MonitorInvocationsTask delayed 21600 ms
+17-Jun-2025 12:24:13.500 WARNING [hz.hazelcast-instance.InvocationMonitorThread] com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor.null [192.168.211.95]:5701 [dev] [5.3.1] MonitorInvocationsTask delayed 11808 ms
+17-Jun-2025 12:26:53.500 WARNING [hz.hazelcast-instance.InvocationMonitorThread] com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor.null [192.168.211.95]:5701 [dev] [5.3.1] MonitorInvocationsTask delayed 10034 ms
+17-Jun-2025 12:29:35.219 WARNING [hz.hazelcast-instance.InvocationMonitorThread] com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor.null [192.168.211.95]:5701 [dev] [5.3.1] MonitorInvocationsTask delayed 11005 ms
+17-Jun-2025 12:32:16.104 WARNING [hz.hazelcast-instance.InvocationMonitorThread] com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor.null [192.168.211.95]:5701 [dev] [5.3.1] MonitorInvocationsTask delayed 11114 ms
+17-Jun-2025 12:34:56.674 WARNING [hz.hazelcast-instance.InvocationMonitorThread] com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor.null [192.168.211.95]:5701 [dev] [5.3.1] MonitorInvocationsTask delayed 10922 ms
+17-Jun-2025 12:37:37.500 WARNING [hz.hazelcast-instance.InvocationMonitorThread] com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor.null [192.168.211.95]:5701 [dev] [5.3.1] MonitorInvocationsTask delayed 10984 ms
+17-Jun-2025 12:40:18.356 WARNING [hz.hazelcast-instance.InvocationMonitorThread] com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor.null [192.168.211.95]:5701 [dev] [5.3.1] MonitorInvocationsTask delayed 10074 ms
+17-Jun-2025 12:43:01.103 WARNING [hz.hazelcast-instance.InvocationMonitorThread] com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor.null [192.168.211.95]:5701 [dev] [5.3.1] MonitorInvocationsTask delayed 13062 ms
+17-Jun-2025 12:43:01.103 WARNING [hz.hazelcast-instance.InvocationMonitorThread] com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor.null [192.168.211.95]:5701 [dev] [5.3.1] BroadcastOperationControlTask delayed 10057 ms
+17-Jun-2025 12:46:17.765 WARNING [hz.hazelcast-instance.InvocationMonitorThread] com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor.null [192.168.211.95]:5701 [dev] [5.3.1] MonitorInvocationsTask delayed 16963 ms
+17-Jun-2025 12:46:17.765 WARNING [hz.hazelcast-instance.InvocationMonitorThread] com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor.null [192.168.211.95]:5701 [dev] [5.3.1] BroadcastOperationControlTask delayed 11964 ms
+17-Jun-2025 12:48:59.532 WARNING [hz.hazelcast-instance.InvocationMonitorThread] com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor.null [192.168.211.95]:5701 [dev] [5.3.1] MonitorInvocationsTask delayed 11971 ms
+17-Jun-2025 12:50:15.016 INFO [hz.hazelcast-instance.HealthMonitor] com.hazelcast.internal.diagnostics.HealthMonitor.null [192.168.211.95]:5701 [dev] [5.3.1] processors=12, physical.memory.total=15.8G, physical.memory.free=4.1G, swap.space.total=0, swap.space.free=0, heap.memory.used=616.7M, heap.memory.free=243.3M, heap.memory.total=860.0M, heap.memory.max=4.0G, heap.memory.used/total=71.71%, heap.memory.used/max=15.21%, minor.gc.count=135, minor.gc.time=833ms, major.gc.count=0, major.gc.time=0ms, load.process=0.00%, load.system=70.65%, load.systemAverage=n/a thread.count=213, thread.peakCount=256, cluster.timeDiff=0, event.q.size=0, executor.q.async.size=0, executor.q.client.size=0, executor.q.client.query.size=0, executor.q.client.blocking.size=0, executor.q.query.size=0, executor.q.scheduled.size=0, executor.q.io.size=0, executor.q.system.size=0, executor.q.operations.size=0, executor.q.priorityOperation.size=0, operations.completed.count=1, executor.q.mapLoad.size=0, executor.q.mapLoadAllKeys.size=0, executor.q.cluster.size=0, executor.q.response.size=0, operations.running.count=0, operations.pending.invocations.percentage=0.00%, operations.pending.invocations.count=0, proxy.count=0, clientEndpoint.count=0, connection.active.count=0, client.connection.count=0, connection.count=0
+17-Jun-2025 15:28:59.329 INFO [hz.hazelcast-instance.HealthMonitor] com.hazelcast.internal.diagnostics.HealthMonitor.null [192.168.211.95]:5701 [dev] [5.3.1] processors=12, physical.memory.total=15.8G, physical.memory.free=5.3G, swap.space.total=0, swap.space.free=0, heap.memory.used=448.4M, heap.memory.free=411.6M, heap.memory.total=860.0M, heap.memory.max=4.0G, heap.memory.used/total=52.14%, heap.memory.used/max=11.06%, minor.gc.count=141, minor.gc.time=903ms, major.gc.count=0, major.gc.time=0ms, load.process=0.00%, load.system=88.06%, load.systemAverage=n/a thread.count=213, thread.peakCount=256, cluster.timeDiff=0, event.q.size=0, executor.q.async.size=0, executor.q.client.size=0, executor.q.client.query.size=0, executor.q.client.blocking.size=0, executor.q.query.size=0, executor.q.scheduled.size=0, executor.q.io.size=0, executor.q.system.size=0, executor.q.operations.size=0, executor.q.priorityOperation.size=0, operations.completed.count=1, executor.q.mapLoad.size=0, executor.q.mapLoadAllKeys.size=0, executor.q.cluster.size=0, executor.q.response.size=0, operations.running.count=0, operations.pending.invocations.percentage=0.00%, operations.pending.invocations.count=0, proxy.count=0, clientEndpoint.count=0, connection.active.count=0, client.connection.count=0, connection.count=0
+17-Jun-2025 16:47:21.242 INFO [hz.hazelcast-instance.HealthMonitor] com.hazelcast.internal.diagnostics.HealthMonitor.null [192.168.211.95]:5701 [dev] [5.3.1] processors=12, physical.memory.total=15.8G, physical.memory.free=4.4G, swap.space.total=0, swap.space.free=0, heap.memory.used=651.3M, heap.memory.free=208.7M, heap.memory.total=860.0M, heap.memory.max=4.0G, heap.memory.used/total=75.73%, heap.memory.used/max=16.06%, minor.gc.count=143, minor.gc.time=928ms, major.gc.count=0, major.gc.time=0ms, load.process=0.00%, load.system=100.00%, load.systemAverage=n/a thread.count=211, thread.peakCount=256, cluster.timeDiff=0, event.q.size=0, executor.q.async.size=0, executor.q.client.size=0, executor.q.client.query.size=0, executor.q.client.blocking.size=0, executor.q.query.size=0, executor.q.scheduled.size=0, executor.q.io.size=0, executor.q.system.size=0, executor.q.operations.size=0, executor.q.priorityOperation.size=0, operations.completed.count=1, executor.q.mapLoad.size=0, executor.q.mapLoadAllKeys.size=0, executor.q.cluster.size=0, executor.q.response.size=0, operations.running.count=0, operations.pending.invocations.percentage=0.00%, operations.pending.invocations.count=0, proxy.count=0, clientEndpoint.count=0, connection.active.count=0, client.connection.count=0, connection.count=0
+17-Jun-2025 16:47:41.292 INFO [hz.hazelcast-instance.HealthMonitor] com.hazelcast.internal.diagnostics.HealthMonitor.null [192.168.211.95]:5701 [dev] [5.3.1] processors=12, physical.memory.total=15.8G, physical.memory.free=4.4G, swap.space.total=0, swap.space.free=0, heap.memory.used=653.0M, heap.memory.free=207.0M, heap.memory.total=860.0M, heap.memory.max=4.0G, heap.memory.used/total=75.93%, heap.memory.used/max=16.11%, minor.gc.count=143, minor.gc.time=928ms, major.gc.count=0, major.gc.time=0ms, load.process=0.00%, load.system=100.00%, load.systemAverage=n/a thread.count=216, thread.peakCount=256, cluster.timeDiff=0, event.q.size=0, executor.q.async.size=0, executor.q.client.size=0, executor.q.client.query.size=0, executor.q.client.blocking.size=0, executor.q.query.size=0, executor.q.scheduled.size=0, executor.q.io.size=0, executor.q.system.size=0, executor.q.operations.size=0, executor.q.priorityOperation.size=0, operations.completed.count=1, executor.q.mapLoad.size=0, executor.q.mapLoadAllKeys.size=0, executor.q.cluster.size=0, executor.q.response.size=0, operations.running.count=0, operations.pending.invocations.percentage=0.00%, operations.pending.invocations.count=0, proxy.count=0, clientEndpoint.count=0, connection.active.count=0, client.connection.count=0, connection.count=0
+17-Jun-2025 17:29:17.816 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+17-Jun-2025 17:29:17.863 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+17-Jun-2025 17:29:17.875 INFO [hz.ShutdownThread] com.hazelcast.instance.impl.Node.null [192.168.211.95]:5701 [dev] [5.3.1] Running shutdown hook... Current node state: ACTIVE
+17-Jun-2025 17:29:17.878 INFO [hz.ShutdownThread] com.hazelcast.core.LifecycleService.null [192.168.211.95]:5701 [dev] [5.3.1] [192.168.211.95]:5701 is SHUTTING_DOWN
+17-Jun-2025 17:29:17.894 WARNING [hz.ShutdownThread] com.hazelcast.instance.impl.Node.null [192.168.211.95]:5701 [dev] [5.3.1] Terminating forcefully...
+17-Jun-2025 17:29:17.895 INFO [hz.ShutdownThread] com.hazelcast.instance.impl.Node.null [192.168.211.95]:5701 [dev] [5.3.1] Shutting down multicast service...
+17-Jun-2025 17:29:17.935 INFO [hz.ShutdownThread] com.hazelcast.instance.impl.Node.null [192.168.211.95]:5701 [dev] [5.3.1] Shutting down connection manager...
+17-Jun-2025 17:29:17.939 INFO [hz.ShutdownThread] com.hazelcast.instance.impl.Node.null [192.168.211.95]:5701 [dev] [5.3.1] Shutting down node engine...
+17-Jun-2025 17:29:17.954 INFO [hz.ShutdownThread] com.hazelcast.instance.impl.NodeExtension.null [192.168.211.95]:5701 [dev] [5.3.1] Destroying node NodeExtension.
+17-Jun-2025 17:29:17.955 INFO [hz.ShutdownThread] com.hazelcast.instance.impl.Node.null [192.168.211.95]:5701 [dev] [5.3.1] Hazelcast Shutdown is completed in 61 ms.
+17-Jun-2025 17:29:17.955 INFO [hz.ShutdownThread] com.hazelcast.core.LifecycleService.null [192.168.211.95]:5701 [dev] [5.3.1] [192.168.211.95]:5701 is SHUTDOWN
+17-Jun-2025 17:29:18.377 WARNING [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [spring-hibernate-jpa] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+17-Jun-2025 17:29:18.378 WARNING [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [spring-hibernate-jpa] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.15/java.lang.Object.wait(Native Method)
+ java.base@17.0.15/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:85)
+ java.base@17.0.15/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@17.0.15/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.15/java.lang.Thread.run(Thread.java:840)
+17-Jun-2025 17:29:18.378 WARNING [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [spring-hibernate-jpa] appears to have started a thread named [pool-7-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.15/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.15/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.15/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1679)
+ java.base@17.0.15/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.15/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.15/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.15/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.15/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.15/java.lang.Thread.run(Thread.java:840)
+17-Jun-2025 17:29:18.379 WARNING [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [spring-hibernate-jpa] appears to have started a thread named [pool-7-thread-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.15/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.15/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.15/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.15/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3465)
+ java.base@17.0.15/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3436)
+ java.base@17.0.15/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1630)
+ java.base@17.0.15/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1177)
+ java.base@17.0.15/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.15/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.15/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.15/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.15/java.lang.Thread.run(Thread.java:840)
+17-Jun-2025 17:29:18.379 WARNING [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [spring-hibernate-jpa] appears to have started a thread named [pool-7-thread-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.15/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.15/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.15/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.15/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3465)
+ java.base@17.0.15/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3436)
+ java.base@17.0.15/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1630)
+ java.base@17.0.15/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1177)
+ java.base@17.0.15/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.15/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.15/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.15/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.15/java.lang.Thread.run(Thread.java:840)
+17-Jun-2025 17:29:18.379 WARNING [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [spring-hibernate-jpa] appears to have started a thread named [pool-7-thread-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.15/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.15/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.15/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.15/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3465)
+ java.base@17.0.15/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3436)
+ java.base@17.0.15/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1630)
+ java.base@17.0.15/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1177)
+ java.base@17.0.15/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.15/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.15/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.15/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.15/java.lang.Thread.run(Thread.java:840)
+17-Jun-2025 17:29:18.381 WARNING [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [spring-hibernate-jpa] appears to have started a thread named [pool-7-thread-5] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.15/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.15/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.15/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.15/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3465)
+ java.base@17.0.15/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3436)
+ java.base@17.0.15/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1630)
+ java.base@17.0.15/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1177)
+ java.base@17.0.15/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.15/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.15/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.15/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.15/java.lang.Thread.run(Thread.java:840)
+17-Jun-2025 17:29:18.381 WARNING [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [spring-hibernate-jpa] appears to have started a thread named [pool-7-thread-6] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.15/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.15/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.15/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.15/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3465)
+ java.base@17.0.15/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3436)
+ java.base@17.0.15/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1630)
+ java.base@17.0.15/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1177)
+ java.base@17.0.15/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.15/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.15/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.15/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.15/java.lang.Thread.run(Thread.java:840)
+17-Jun-2025 17:29:18.381 WARNING [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [spring-hibernate-jpa] appears to have started a thread named [pool-7-thread-7] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.15/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.15/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.15/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.15/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3465)
+ java.base@17.0.15/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3436)
+ java.base@17.0.15/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1630)
+ java.base@17.0.15/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1177)
+ java.base@17.0.15/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.15/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.15/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.15/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.15/java.lang.Thread.run(Thread.java:840)
+17-Jun-2025 17:29:18.382 WARNING [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [spring-hibernate-jpa] appears to have started a thread named [pool-7-thread-8] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.15/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.15/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.15/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.15/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3465)
+ java.base@17.0.15/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3436)
+ java.base@17.0.15/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1630)
+ java.base@17.0.15/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1177)
+ java.base@17.0.15/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.15/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.15/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.15/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.15/java.lang.Thread.run(Thread.java:840)
+17-Jun-2025 17:29:18.382 WARNING [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [spring-hibernate-jpa] appears to have started a thread named [pool-7-thread-9] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.15/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.15/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.15/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.15/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3465)
+ java.base@17.0.15/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3436)
+ java.base@17.0.15/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1630)
+ java.base@17.0.15/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1177)
+ java.base@17.0.15/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.15/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.15/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.15/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.15/java.lang.Thread.run(Thread.java:840)
+17-Jun-2025 17:29:18.382 WARNING [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [spring-hibernate-jpa] appears to have started a thread named [pool-7-thread-10] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.15/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.15/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.15/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.15/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3465)
+ java.base@17.0.15/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3436)
+ java.base@17.0.15/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1630)
+ java.base@17.0.15/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1177)
+ java.base@17.0.15/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.15/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.15/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.15/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.15/java.lang.Thread.run(Thread.java:840)
+17-Jun-2025 17:29:18.384 WARNING [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [spring-hibernate-jpa] appears to have started a thread named [pool-11-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.15/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.15/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.15/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.15/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3465)
+ java.base@17.0.15/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3436)
+ java.base@17.0.15/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1630)
+ java.base@17.0.15/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+ java.base@17.0.15/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.15/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.15/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.15/java.lang.Thread.run(Thread.java:840)
+17-Jun-2025 17:29:18.384 WARNING [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [spring-hibernate-jpa] appears to have started a thread named [pool-11-thread-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.15/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.15/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.15/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.15/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3465)
+ java.base@17.0.15/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3436)
+ java.base@17.0.15/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1630)
+ java.base@17.0.15/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+ java.base@17.0.15/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.15/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.15/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.15/java.lang.Thread.run(Thread.java:840)
+17-Jun-2025 17:29:18.384 WARNING [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [spring-hibernate-jpa] appears to have started a thread named [pool-13-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.15/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.15/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.15/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.15/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3465)
+ java.base@17.0.15/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3436)
+ java.base@17.0.15/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1630)
+ java.base@17.0.15/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+ java.base@17.0.15/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.15/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.15/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.15/java.lang.Thread.run(Thread.java:840)
+17-Jun-2025 17:29:18.385 WARNING [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [spring-hibernate-jpa] appears to have started a thread named [pool-13-thread-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.15/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.15/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.15/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.15/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3465)
+ java.base@17.0.15/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3436)
+ java.base@17.0.15/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1630)
+ java.base@17.0.15/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+ java.base@17.0.15/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.15/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.15/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.15/java.lang.Thread.run(Thread.java:840)
+17-Jun-2025 17:29:18.386 WARNING [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [spring-hibernate-jpa] appears to have started a thread named [pool-15-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.15/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.15/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.15/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.15/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3465)
+ java.base@17.0.15/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3436)
+ java.base@17.0.15/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1630)
+ java.base@17.0.15/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+ java.base@17.0.15/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.15/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.15/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.15/java.lang.Thread.run(Thread.java:840)
+17-Jun-2025 17:29:18.386 WARNING [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [spring-hibernate-jpa] appears to have started a thread named [pool-15-thread-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.15/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.15/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.15/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.15/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3465)
+ java.base@17.0.15/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3436)
+ java.base@17.0.15/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1630)
+ java.base@17.0.15/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+ java.base@17.0.15/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.15/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.15/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.15/java.lang.Thread.run(Thread.java:840)
+17-Jun-2025 17:29:18.440 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+17-Jun-2025 17:29:18.444 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+17-Jun-2025 17:29:18.792 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1374)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:997)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:117)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:84)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+17-Jun-2025 17:29:18.795 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1374)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:997)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:117)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:84)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+17-Jun-2025 17:29:18.795 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1374)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:997)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:117)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:84)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+17-Jun-2025 17:29:18.796 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1374)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:997)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:117)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:84)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
